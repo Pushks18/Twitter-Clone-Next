@@ -82,7 +82,7 @@ const Input = () => {
           <img
             className="h-12 w-12 rounded-full object-contain"
             src={session?.user?.image}
-            alt="Image"
+            alt=""
           />
         </div>
 
@@ -106,7 +106,7 @@ const Input = () => {
 
               <img
                 src={selectedFile}
-                alt="Image"
+                alt=""
                 className="rounded-2xl max-h-80 object-contain"
               />
             </div>

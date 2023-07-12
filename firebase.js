@@ -2,17 +2,18 @@
 import { initializeApp, getApp, getApps } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
+
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDez_iyAqiYbPMotE4xCCHXTRmwGsIenf0",
-  authDomain: "twitter-next-1a9fe.firebaseapp.com",
-  projectId: "twitter-next-1a9fe",
-  storageBucket: "twitter-next-1a9fe.appspot.com",
-  messagingSenderId: "43043080997",
-  appId: "1:43043080997:web:8ad23fc991de9d71c768cc",
+  apiKey: "AIzaSyDDoUFh5UvSl6MO4tsl3MQdwSccLg3avM8",
+  authDomain: "twitter-clone-12adc.firebaseapp.com",
+  projectId: "twitter-clone-12adc",
+  storageBucket: "twitter-clone-12adc.appspot.com",
+  messagingSenderId: "832446324240",
+  appId: "1:832446324240:web:2f1daf278f3647bfc53495",
 };
 
 // Initialize Firebase

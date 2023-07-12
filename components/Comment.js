@@ -1,5 +1,6 @@
 import { BiDotsHorizontalRounded } from "react-icons/bi";
-import { AiOutlineHeart, AiOutlineShareAlt } from "react-icons/ai";
+import { AiOutlineHeart, AiFillHeart, AiOutlineShareAlt } from "react-icons/ai";
+import { HiOutlineSwitchHorizontal } from "react-icons/hi";
 import { BsBarChart, BsTrash, BsChatDots } from "react-icons/bs";
 import Moment from "react-moment";
 
@@ -8,7 +9,7 @@ function Comment({ comment }) {
     <div className="p-3 flex cursor-pointer border-b border-gray-700">
       <img
         src={comment?.userImg}
-        alt="Image"
+        alt=""
         className="h-11 w-11 rounded-full mr-4"
       />
       <div className="flex flex-col space-y-2 w-full">

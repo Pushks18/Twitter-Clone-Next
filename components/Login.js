@@ -16,7 +16,7 @@ const Login = () => {
           onClick={() => signIn("google")}
         >
           <FcGoogle className="text-[30px]" />
-          Sign in with Google
+          SignIn with Google
         </div>
       </div>
     </div>

@@ -15,13 +15,13 @@ const Trending = () => {
       </div>
 
       <div className="bg-[#16181C] rounded-[20px] text-white mt-4 px-4 py-4">
-        <h1 className="text-[20px] font-medium">Whats Happening</h1>
+        <h1 className="text-[20px] font-medium">What's Happening</h1>
 
         <TrendingList />
-        {/* <TrendingList />
         <TrendingList />
         <TrendingList />
-        <TrendingList /> */}
+        <TrendingList />
+        <TrendingList />
       </div>
     </div>
   );

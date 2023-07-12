@@ -34,12 +34,12 @@ const Sidebar = () => {
       </button>
 
       <div
-        className="text-[#d9d9d9] flex items-center justify-center mt-auto hoverEffect xl:ml-auto xl:-mr-5 px-4 py-20"
+        className="text-[#d9d9d9] flex items-center justify-center mt-auto hoverEffect xl:ml-auto xl:-mr-5 px-4 py-2"
         onClick={signOut}
       >
         <img
           src={session?.user?.image}
-          alt="Image"
+          alt=""
           className="h-10 w-10 rounded-full xl:mr-2.5"
         />
         <div className="hidden xl:inline leading-5">
