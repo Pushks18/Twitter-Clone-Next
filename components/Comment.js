@@ -1,6 +1,5 @@
 import { BiDotsHorizontalRounded } from "react-icons/bi";
-import { AiOutlineHeart, AiFillHeart, AiOutlineShareAlt } from "react-icons/ai";
-import { HiOutlineSwitchHorizontal } from "react-icons/hi";
+import { AiOutlineHeart, AiOutlineShareAlt } from "react-icons/ai";
 import { BsBarChart, BsTrash, BsChatDots } from "react-icons/bs";
 import Moment from "react-moment";
 
